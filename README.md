@@ -2,8 +2,10 @@
 
 ## Jeremy Chow
 ## 9/19/2019
-**1. What data would you exclude from analysis for being unreliable or potentially a block
-instead of an actual booking?**
+
+This data came from an anonymous company and it came with the following questions:
+
+## 1. What data would you exclude from analysis for being unreliable or potentially a block instead of an actual booking?
 
 I’m going to first approach this from a different angle: what are the indicators of a real booking?
 The strongest indicator of a legitimate booking we can see in this dataset is when the price for a
@@ -81,7 +83,7 @@ combination. Unique prices and availabilities were also recorded for brief analy
 effects of price changes and changes in availability over time for a particular date.
 
 
-**2. What is a good approach to estimate occupancy and revenue per unit?**
+## 2. What is a good approach to estimate occupancy and revenue per unit?
 
 
 Once we have aggregated the data (grouping by property and date such that there is one row
@@ -94,7 +96,7 @@ property and sum this revenue column to find the revenue over the dataset.
 Alternatively, as mentioned previously, we can calculate the revenue for all the data then
 multiply the output by some “booked days divided by total days” scaling factor.
 
-**3. Which month appears to be more profitable? April or May?**
+## 3. Which month appears to be more profitable? April or May?
 
 
 For this and the next question, I did not filter the data and treated every unavailable slot as a
@@ -102,8 +104,7 @@ booking. The idea was that any bias introduced by blocking would be equivalent i
 being compared, and thus the effect would cancel out.
 
 
-**4. How much more revenue do places with 3 bedrooms make vs. places with 2
-bedrooms?**
+## 4. How much more revenue do places with 3 bedrooms make vs. places with 2 bedrooms?
 
 
 Once again, blocking vs. guests problem was bypassed here under the assumption that
@@ -112,12 +113,11 @@ comparison will presumably neutralize its effect.
 With that logic, 3-bedroom places make about 8.42% more than 2-bedroom places.
 
 
-**5. What are any other interesting insights you may have found?**
+## 5. What are any other interesting insights you may have found? 
 20% of the properties in the dataset are listed as unavailable for all dates, either due to long
-term rentals or long term blocks.
-Around 24% of booked dates in the dataset get cancelled or rescheduled.
+term rentals or long term blocks. Around 24% of booked dates in the dataset get cancelled or rescheduled.
 
-Here are some quick visualizations:
+## Quick Visualizations:
 
 ![Top_Cities](graphs/top_5_cities.png)
 
