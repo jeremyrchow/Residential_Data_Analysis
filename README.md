@@ -131,22 +131,18 @@ Scottsdale seems to be the most popular city in this dataset with over half of t
 There are a significant number of properties which were 100% available and 100% unavailable
 during this time period. About 9.4% of the vacant properties were listed by superhosts, and
 about 16.6% of the fully booked properties were listed by superhosts. Overall 24% of the listings
-
 are by superhosts.
 
 
 ![Capacity_Hist](graphs/capacity_hist.png)
 
 
-The mean capacity of units in this dataset is 6.05 with a median of 6 people. 25% of the units in
-
-the dataset have a capacity of 4 people.
+The mean capacity of units in this dataset is 6.05 with a median of 6 people. 25% of the units in the dataset have a capacity of 4 people.
 
 ![Unavailable_Over_Time](graphs/unavailability_line.png)
 
 A look at the trend of normalized booked/blocked over total number of units over time shows a
-stable trend. The spikes seem to partially overlap with weekends. There seems to be an
-
+stable trend. The spikes seem to partially overlap with weekends. There seems to be an 
 anomaly around May 7th, possibly due to May 5 festivities.
 
 
