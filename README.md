@@ -1,4 +1,4 @@
-*WanderJaunt Takehome Data Science*
+**WanderJaunt Takehome Data Science**
 
 09/16/2019
 
