@@ -119,13 +119,13 @@ Around 24% of booked dates in the dataset get cancelled or rescheduled.
 
 Here are some quick visualizations:
 
-![Top_Cities](data/top_5_cities.png)
+![Top_Cities](graphs/top_5_cities.png)
 
 
 Scottsdale seems to be the most popular city in this dataset with over half of the listings.
 
 
-![Unavailablity_Hist](data/unavailability_hist.png)
+![Unavailablity_Hist](graphs/unavailability_hist.png)
 
 
 There are a significant number of properties which were 100% available and 100% unavailable
@@ -135,14 +135,14 @@ about 16.6% of the fully booked properties were listed by superhosts. Overall 24
 are by superhosts.
 
 
-![Capacity_Hist](data/capacity_hist.png)
+![Capacity_Hist](graphs/capacity_hist.png)
 
 
 The mean capacity of units in this dataset is 6.05 with a median of 6 people. 25% of the units in
 
 the dataset have a capacity of 4 people.
 
-![Unavailable_Over_Time](data/unavailability_line.png)
+![Unavailable_Over_Time](graphs/unavailability_line.png)
 
 A look at the trend of normalized booked/blocked over total number of units over time shows a
 stable trend. The spikes seem to partially overlap with weekends. There seems to be an
